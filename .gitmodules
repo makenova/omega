@@ -10,3 +10,9 @@
 [submodule "ProMicroKiCad"]
 	path = ProMicroKiCad
 	url = https://github.com/Biacco42/ProMicroKiCad.git
+[submodule "omega_soldered/Keebio-Parts.pretty"]
+	path = omega_soldered/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "keebio-components"]
+	path = keebio-components
+	url = https://github.com/keebio/keebio-components.git
