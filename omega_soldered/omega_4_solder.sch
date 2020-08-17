@@ -873,98 +873,96 @@ ROW2
 $Comp
 L promicro:ProMicro U1
 U 1 1 5ED6F60F
-P 2800 2550
-F 0 "U1" H 2800 3587 60  0000 C CNN
-F 1 "ProMicro" H 2800 3481 60  0000 C CNN
-F 2 "promicro:ProMicro" H 2900 1500 60  0001 C CNN
-F 3 "" H 2900 1500 60  0000 C CNN
-	1    2800 2550
+P 3600 2600
+F 0 "U1" H 3600 3637 60  0000 C CNN
+F 1 "ProMicro" H 3600 3531 60  0000 C CNN
+F 2 "promicro:ProMicro" H 3700 1550 60  0001 C CNN
+F 3 "" H 3700 1550 60  0000 C CNN
+	1    3600 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR01
 U 1 1 5ED8D274
-P 3550 1500
-F 0 "#PWR01" H 3550 1350 50  0001 C CNN
-F 1 "+5V" H 3565 1673 50  0000 C CNN
-F 2 "" H 3550 1500 50  0001 C CNN
-F 3 "" H 3550 1500 50  0001 C CNN
-	1    3550 1500
+P 4350 1550
+F 0 "#PWR01" H 4350 1400 50  0001 C CNN
+F 1 "+5V" H 4365 1723 50  0000 C CNN
+F 2 "" H 4350 1550 50  0001 C CNN
+F 3 "" H 4350 1550 50  0001 C CNN
+	1    4350 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5ED8D298
-P 4300 2000
-F 0 "#PWR03" H 4300 1750 50  0001 C CNN
-F 1 "GND" H 4305 1827 50  0000 C CNN
-F 2 "" H 4300 2000 50  0001 C CNN
-F 3 "" H 4300 2000 50  0001 C CNN
-	1    4300 2000
+P 5100 2050
+F 0 "#PWR03" H 5100 1800 50  0001 C CNN
+F 1 "GND" H 5105 1877 50  0000 C CNN
+F 2 "" H 5100 2050 50  0001 C CNN
+F 3 "" H 5100 2050 50  0001 C CNN
+	1    5100 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 2000 4150 2000
+	5100 2050 4950 2050
 $Comp
 L power:GND #PWR02
 U 1 1 5EDC5385
-P 1850 2000
-F 0 "#PWR02" H 1850 1750 50  0001 C CNN
-F 1 "GND" H 1855 1827 50  0000 C CNN
-F 2 "" H 1850 2000 50  0001 C CNN
-F 3 "" H 1850 2000 50  0001 C CNN
-	1    1850 2000
+P 2650 2050
+F 0 "#PWR02" H 2650 1800 50  0001 C CNN
+F 1 "GND" H 2655 1877 50  0000 C CNN
+F 2 "" H 2650 2050 50  0001 C CNN
+F 3 "" H 2650 2050 50  0001 C CNN
+	1    2650 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 2000 2100 2000
+	2650 2050 2900 2050
 Wire Wire Line
-	2100 2000 2100 2100
-Connection ~ 2100 2000
+	2900 2050 2900 2150
+Connection ~ 2900 2050
 Wire Wire Line
-	3500 1900 3600 1900
+	4300 1950 4400 1950
 Wire Wire Line
-	3600 1900 3600 2050
-Connection ~ 4150 2000
+	4400 1950 4400 2100
+Connection ~ 4950 2050
 Wire Wire Line
-	3600 2050 4150 2050
+	4400 2100 4950 2100
 Wire Wire Line
-	4150 2050 4150 2000
+	4950 2100 4950 2050
 Wire Wire Line
-	3500 2100 3550 2100
+	4300 2150 4350 2150
 Wire Wire Line
-	3550 2100 3550 1500
-Text GLabel 2100 2800 0    50   Input ~ 0
+	4350 2150 4350 1550
+Text GLabel 4300 2850 2    50   Input ~ 0
 COL6
-Text GLabel 3500 2600 2    50   Input ~ 0
+Text GLabel 4300 2250 2    50   Input ~ 0
 COL1
-Text GLabel 2100 2600 0    50   Input ~ 0
+Text GLabel 4300 2650 2    50   Input ~ 0
 COL8
-Text GLabel 2100 2500 0    50   Input ~ 0
+Text GLabel 4300 2550 2    50   Input ~ 0
 COL9
-Text GLabel 3500 2700 2    50   Input ~ 0
+Text GLabel 2900 2950 0    50   Input ~ 0
 COL2
-Text GLabel 3500 2500 2    50   Input ~ 0
+Text GLabel 2900 2550 0    50   Input ~ 0
 ROW0
-Text GLabel 3500 2200 2    50   Input ~ 0
+Text GLabel 2900 2450 0    50   Input ~ 0
 COL0
-Text GLabel 3500 2300 2    50   Input ~ 0
+Text GLabel 2900 2750 0    50   Input ~ 0
 ROW2
-Text GLabel 3500 2400 2    50   Input ~ 0
+Text GLabel 2900 2650 0    50   Input ~ 0
 ROW1
-Text GLabel 2100 2700 0    50   Input ~ 0
+Text GLabel 4300 2750 2    50   Input ~ 0
 COL7
-Text GLabel 2100 2900 0    50   Input ~ 0
+Text GLabel 4300 2950 2    50   Input ~ 0
 COL5
-Text GLabel 3500 2900 2    50   Input ~ 0
+Text GLabel 4300 2450 2    50   Input ~ 0
 COL4
-Text GLabel 3500 2800 2    50   Input ~ 0
-COL3
-NoConn ~ 2100 2200
-NoConn ~ 2100 2300
-NoConn ~ 2100 1900
-NoConn ~ 2100 1800
-NoConn ~ 3500 1800
+NoConn ~ 2900 2250
+NoConn ~ 2900 2350
+NoConn ~ 2900 1950
+NoConn ~ 2900 1850
+NoConn ~ 4300 1850
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX26
 U 1 1 5EE86EA0
@@ -1038,50 +1036,6 @@ Connection ~ 9500 2000
 Wire Wire Line
 	9950 2000 9950 2650
 Connection ~ 9950 2000
-$Comp
-L keebio:Hole H1
-U 1 1 5F08444E
-P 4350 3500
-F 0 "H1" H 4536 3553 60  0000 L CNN
-F 1 "Hole" H 4536 3447 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4350 3500 60  0001 C CNN
-F 3 "" H 4350 3500 60  0001 C CNN
-	1    4350 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L keebio:Hole H2
-U 1 1 5F084F55
-P 4950 3500
-F 0 "H2" H 5136 3553 60  0000 L CNN
-F 1 "Hole" H 5136 3447 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4950 3500 60  0001 C CNN
-F 3 "" H 4950 3500 60  0001 C CNN
-	1    4950 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L keebio:Hole H4
-U 1 1 5F085599
-P 4950 3900
-F 0 "H4" H 5136 3953 60  0000 L CNN
-F 1 "Hole" H 5136 3847 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4950 3900 60  0001 C CNN
-F 3 "" H 4950 3900 60  0001 C CNN
-	1    4950 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L keebio:Hole H3
-U 1 1 5F085CDC
-P 4350 3900
-F 0 "H3" H 4536 3953 60  0000 L CNN
-F 1 "Hole" H 4536 3847 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4350 3900 60  0001 C CNN
-F 3 "" H 4350 3900 60  0001 C CNN
-	1    4350 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small D33
 U 1 1 5F34B49A
@@ -1241,16 +1195,39 @@ Connection ~ 8350 3500
 $Comp
 L Device:Jumper_NO_Small JP1
 U 1 1 5F46F2E8
-P 3900 2000
-F 0 "JP1" H 3900 2185 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 3900 2094 50  0000 C CNN
-F 2 "random-keyboard-parts:Jumper-UserFriendly-Small" H 3900 2000 50  0001 C CNN
-F 3 "~" H 3900 2000 50  0001 C CNN
-	1    3900 2000
+P 4700 2050
+F 0 "JP1" H 4700 2235 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4700 2144 50  0000 C CNN
+F 2 "random-keyboard-parts:Jumper-UserFriendly-Small" H 4700 2050 50  0001 C CNN
+F 3 "~" H 4700 2050 50  0001 C CNN
+	1    4700 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 2000 4150 2000
+	4800 2050 4950 2050
 Wire Wire Line
-	3500 2000 3800 2000
+	4300 2050 4600 2050
+Text GLabel 2900 2850 0    50   Input ~ 0
+ROW3
+Text GLabel 4300 2350 2    50   Input ~ 0
+COL3
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX37
+U 1 1 5F38E303
+P 8450 4450
+F 0 "MX37" H 8483 4673 60  0000 C CNN
+F 1 "MX-NoLED" H 8483 4599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-6U-Centered-ReversedStabilizers-NoLED" H 7825 4425 60  0001 C CNN
+F 3 "" H 7825 4425 60  0001 C CNN
+	1    8450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4400 8600 3950
+Connection ~ 8600 3950
+Wire Wire Line
+	8400 4600 8200 4600
+Wire Wire Line
+	8200 4600 8200 4150
+Connection ~ 8200 4150
 $EndSCHEMATC

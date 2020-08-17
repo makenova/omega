@@ -59,18 +59,6 @@ X ROW 2 -50 -150 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keebio_Hole
-#
-DEF keebio_Hole H 0 40 Y Y 1 F N
-F0 "H" 0 -50 60 H V C CNN
-F1 "keebio_Hole" 0 50 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 0 158 0 1 0 N
-ENDDRAW
-ENDDEF
-#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P
