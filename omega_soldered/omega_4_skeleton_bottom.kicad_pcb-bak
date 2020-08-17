@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/omega4_skeleton_top_plate/"))
+      (outputdirectory "gerber/omega4_skeleton_bottom_plate/"))
   )
 
   (net 0 "")
@@ -175,7 +175,7 @@
 
   (via (at 125.5 112.925) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 0))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5F38E4DC) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5F38E5C4) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -185,7 +185,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5F38E4D9) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5F38E5C1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
