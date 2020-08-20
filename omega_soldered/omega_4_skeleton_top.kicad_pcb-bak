@@ -459,7 +459,7 @@
   (gr_arc (start 166.4 88.624999) (end 165.9 88.625) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 179.4 89.125) (end 166.4 89.125) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 179.399999 88.624999) (end 179.4 89.125) (angle -90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 241.8125 94.675) (end 241.8125 107.675) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 241.8125 94.675) (end 241.8125 107.674998) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 93.675 113.725) (end 94.175 113.725) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 94.174999 126.724999) (end 94.175 113.725) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 93.675 126.725) (end 93.675 127.224999) (angle -90) (layer Edge.Cuts) (width 0.2))
@@ -528,7 +528,7 @@
 
   (via (at 125.5 112.925) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 0))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5F3BF7C8) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5F3BF7D7) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -538,7 +538,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5F3BF7C5) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5F3BF7D4) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
