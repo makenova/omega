@@ -882,8 +882,6 @@ F 3 "" H 2900 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 1750 3700 2000
-Wire Wire Line
 	3700 1450 3700 1500
 $Comp
 L power:+5V #PWR01
@@ -897,23 +895,12 @@ F 3 "" H 3700 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R1
-U 1 1 5ED8D27E
-P 3700 1650
-F 0 "R1" H 3600 1750 50  0000 L CNN
-F 1 "10k" V 3600 1550 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3700 1650 50  0001 C CNN
-F 3 "~" H 3700 1650 50  0001 C CNN
-	1    3700 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW1
 U 1 1 5ED8D28E
 P 3900 2000
 F 0 "SW1" H 3900 2285 50  0000 C CNN
 F 1 "SW_Push" H 3900 2194 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 3900 2200 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Copal_CHS-01A_W5.08mm_P1.27mm_JPin" H 3900 2200 50  0001 C CNN
 F 3 "~" H 3900 2200 50  0001 C CNN
 	1    3900 2000
 	1    0    0    -1  
@@ -931,25 +918,21 @@ F 3 "" H 4300 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3700 2000 3500 2000
-Connection ~ 3700 2000
 Wire Wire Line
 	4300 2000 4150 2000
 $Comp
 L power:GND #PWR02
 U 1 1 5EDC5385
-P 1850 2000
-F 0 "#PWR02" H 1850 1750 50  0001 C CNN
-F 1 "GND" H 1855 1827 50  0000 C CNN
-F 2 "" H 1850 2000 50  0001 C CNN
-F 3 "" H 1850 2000 50  0001 C CNN
-	1    1850 2000
+P 1750 2000
+F 0 "#PWR02" H 1750 1750 50  0001 C CNN
+F 1 "GND" H 1755 1827 50  0000 C CNN
+F 2 "" H 1750 2000 50  0001 C CNN
+F 3 "" H 1750 2000 50  0001 C CNN
+	1    1750 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 2000 2100 2000
-Wire Wire Line
 	2100 2000 2100 2100
-Connection ~ 2100 2000
 Wire Wire Line
 	3500 1900 3600 1900
 Wire Wire Line
@@ -967,38 +950,32 @@ Wire Wire Line
 	3550 2100 3550 1500
 Wire Wire Line
 	3550 1500 3700 1500
-Connection ~ 3700 1500
-Wire Wire Line
-	3700 1500 3700 1550
-Text GLabel 2100 2800 0    50   Input ~ 0
-COL6
-Text GLabel 3500 2600 2    50   Input ~ 0
-COL1
-Text GLabel 2100 2600 0    50   Input ~ 0
-COL8
-Text GLabel 2100 2500 0    50   Input ~ 0
-COL9
-Text GLabel 3500 2700 2    50   Input ~ 0
-COL2
-Text GLabel 3500 2500 2    50   Input ~ 0
-ROW0
-Text GLabel 3500 2200 2    50   Input ~ 0
-COL0
-Text GLabel 3500 2300 2    50   Input ~ 0
-ROW2
-Text GLabel 3500 2400 2    50   Input ~ 0
-ROW1
-Text GLabel 2100 2700 0    50   Input ~ 0
-COL7
-Text GLabel 2100 2900 0    50   Input ~ 0
-COL5
-Text GLabel 3500 2900 2    50   Input ~ 0
-COL4
 Text GLabel 3500 2800 2    50   Input ~ 0
+COL6
+Text GLabel 2100 2600 0    50   Input ~ 0
+COL1
+Text GLabel 3500 2600 2    50   Input ~ 0
+COL8
+Text GLabel 3500 2500 2    50   Input ~ 0
+COL9
+Text GLabel 2100 2700 0    50   Input ~ 0
+COL2
+Text GLabel 2100 2500 0    50   Input ~ 0
+ROW0
+Text GLabel 2100 2200 0    50   Input ~ 0
+COL0
+Text GLabel 2100 2300 0    50   Input ~ 0
+ROW2
+Text GLabel 2100 2400 0    50   Input ~ 0
+ROW1
+Text GLabel 3500 2700 2    50   Input ~ 0
+COL7
+Text GLabel 3500 2900 2    50   Input ~ 0
+COL5
+Text GLabel 2100 2900 0    50   Input ~ 0
+COL4
+Text GLabel 2100 2800 0    50   Input ~ 0
 COL3
-NoConn ~ 2100 2200
-NoConn ~ 2100 2300
-NoConn ~ 2100 2400
 NoConn ~ 2100 1900
 NoConn ~ 2100 1800
 NoConn ~ 3500 1800
@@ -1124,4 +1101,10 @@ F 3 "" H 4350 3900 60  0001 C CNN
 	1    4350 3900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1750 2000 2100 2000
+Connection ~ 2100 2000
+NoConn ~ 3500 2200
+NoConn ~ 3500 2300
+NoConn ~ 3500 2400
 $EndSCHEMATC
