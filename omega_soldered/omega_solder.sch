@@ -962,9 +962,9 @@ Text GLabel 2100 2700 0    50   Input ~ 0
 COL2
 Text GLabel 2100 2500 0    50   Input ~ 0
 ROW0
-Text GLabel 2100 2200 0    50   Input ~ 0
+Text GLabel 3500 2300 2    50   Input ~ 0
 COL0
-Text GLabel 2100 2300 0    50   Input ~ 0
+Text GLabel 3500 2400 2    50   Input ~ 0
 ROW2
 Text GLabel 2100 2400 0    50   Input ~ 0
 ROW1
@@ -1105,6 +1105,6 @@ Wire Wire Line
 	1750 2000 2100 2000
 Connection ~ 2100 2000
 NoConn ~ 3500 2200
-NoConn ~ 3500 2300
-NoConn ~ 3500 2400
+NoConn ~ 2100 2200
+NoConn ~ 2100 2300
 $EndSCHEMATC
