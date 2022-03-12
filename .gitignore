@@ -1,0 +1,4 @@
+docs/ref/
+.DS_Store
+*/**/*-backups/*
+*/**/_autosave-*
